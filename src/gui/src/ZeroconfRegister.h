@@ -29,7 +29,7 @@ class QSocketNotifier;
 #if defined(Q_OS_WIN)
 #define WIN32_LEAN_AND_MEAN
 #endif
-#include <dns_sd.h>
+#include "avahi-compat-libdns_sd/dns_sd.h"
 
 class ZeroconfRegister : public QObject
 {
