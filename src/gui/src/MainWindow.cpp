@@ -31,7 +31,7 @@
 #include "DataDownloader.h"
 #include "CommandProcess.h"
 #include "LicenseManager.h"
-#include <shared/EditionType.h>
+#include "../../lib/shared/EditionType.h"
 #include "QUtility.h"
 #include "ProcessorArch.h"
 #include "SslCertificate.h"
