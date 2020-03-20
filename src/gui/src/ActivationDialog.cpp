@@ -2,7 +2,7 @@
 #include "ui_ActivationDialog.h"
 #include "CancelActivationDialog.h"
 #include "AppConfig.h"
-#include <shared/EditionType.h>
+#include "../../lib/shared/EditionType.h"
 #include "ActivationNotifier.h"
 #include "MainWindow.h"
 #include "QUtility.h"
