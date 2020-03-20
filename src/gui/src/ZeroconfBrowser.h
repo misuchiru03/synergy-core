@@ -22,7 +22,7 @@
 #include <QtCore/QObject>
 #define _MSL_STDINT_H
 #include <stdint.h>
-#include <dns_sd.h>
+#include "avahi-compat-libdns_sd/dns_sd.h"
 
 class QSocketNotifier;
 
