@@ -31,7 +31,7 @@ Zeroconf::~Zeroconf()
     stopService();
 }
 
-Zeroconf::startService(-fpermissive)
+Zeroconf::startService()
 {
     if (m_pZeroconfService != nullptr) {
         m_pMainWindow->appendLogInfo("restarting zeroconf service");
@@ -47,7 +47,7 @@ Zeroconf::startService(-fpermissive)
     m_pMainWindow->appendLogInfo("started zeroconf service");
 }
 
-Zeroconf::stopService(-fpermissive)
+Zeroconf::stopService()
 {
     if (m_pZeroconfService != nullptr) {
         m_pMainWindow->appendLogInfo("stopping zeroconf service");
