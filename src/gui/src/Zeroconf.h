@@ -29,8 +29,8 @@ class Zeroconf : public QObject
 public:
     Zeroconf(MainWindow* mainWindow);
     virtual ~Zeroconf();
-    void startService();
-    void stopService();
+    ZeroconfService::startService();
+    ZeroconfService::stopService();
 
 private:
     MainWindow* m_pMainWindow;
