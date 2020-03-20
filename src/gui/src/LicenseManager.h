@@ -18,8 +18,8 @@
 #pragma once
 
 #include <QObject>
-#include <shared/EditionType.h>
-#include <shared/SerialKey.h>
+#include "../../lib/shared/EditionType.h"
+#include "../../lib/shared/SerialKey.h"
 #include <ActivationNotifier.h>
 #include <utility>
 
